@@ -158,7 +158,7 @@ st.markdown("<h1 class='main-header'>▲ AI README GENERATOR</h1>", unsafe_allow
 st.markdown("<p class='sub-header'>Agentic AI codebase scanner & README markdown documentation architect.</p>", unsafe_allow_html=True)
 
 # Form Section
-st.markdown("<div class='glass-card'>", unsafe_allow_html=True)
+
 col1, col2 = st.columns([3, 1])
 
 with col1:
@@ -179,7 +179,6 @@ custom_instructions = st.text_area(
     placeholder="Example: Keep instructions optimized for Windows users. Make sure to detail deployment settings to AWS ECS. Focus highly on the testing section.",
     height=100
 )
-st.markdown("</div>", unsafe_allow_html=True)
 
 # Action Trigger
 generate_btn = st.button("🚀 Generate README.md Documentation", use_container_width=True)
