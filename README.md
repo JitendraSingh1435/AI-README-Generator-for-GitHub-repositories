@@ -2,6 +2,8 @@
 
 Generate professional, production-ready GitHub README files automatically using AI-powered repository analysis, Agentic AI workflows, and Large Language Models.
 
+Live on streamlit - https://aireadmegenerator.streamlit.app/
+
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-red)
 ![Gemini](https://img.shields.io/badge/Gemini-LLM-orange)
